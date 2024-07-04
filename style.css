@@ -1,5 +1,5 @@
-*{
-    background-color: #FFF;
+body{
+    background-color: #f0f0f3;
 }
 .nav-container{
     display: flex;
@@ -25,3 +25,84 @@
     text-decoration: none;
     color:black;
 }
+.banner{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.comprehensive{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 900;
+    font-size: 30px;
+}
+.box{
+    display: flex;
+    gap:20px;
+   
+}
+#first-one{
+    background-color: #FBFBFB;
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#second-one{
+    background-color: #FBFBFB;
+    height: 190px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 110px;
+}
+.card{
+    float: right;
+}
+#third-one{
+    background-color: #FBFBFB;
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+#fourth-one{
+    background-color: #FBFBFB;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 120px;
+}
+#fifth-one{
+    background-color: #FBFBFB;
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.coin{
+    float: right;
+}
+.star{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+
+.chart{
+    display: inline-flex;
+    gap:0px;
+    margin: 0px;
+    padding: 0px;
+}
+.icon{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    padding: 0px;
+    gap: 0px;
+}
+
