@@ -1,0 +1,27 @@
+*{
+    background-color: #FFF;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between; 
+}
+.head-img img{
+    height:20px;
+}
+.appointment{
+    font-weight:800;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 2px;
+}
+.menu ul li {
+   
+    list-style-type: none;
+    float: left;
+    padding-left:14px;
+   
+}
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+}
